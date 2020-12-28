@@ -1,0 +1,114 @@
+body{
+  font-family: sans-serif !important;
+}
+#home{
+  height: 100vh;
+  /* background: linear-gradient(90deg , rgb(0, 26, 255) , rgb(111, 0, 255) ); */
+  background-image: url(../images/banner-bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mine{
+  margin-bottom: -20px !important;
+}
+a span{
+  color: #ffffff !important;
+  font-weight: 500px !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.t1{
+  font-size: 100px;
+  font-weight: 700;
+}
+/* .asside-left{
+  margin-left: -150px !important;
+}  */
+.title{
+  color: #ffffff;
+}
+.btn-large{
+  padding: 12px 48px 8px;
+  line-height: 40px;
+}
+
+
+.cats_header{
+  background-image: url(../images/banner-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+
+}
+.cat_name{
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+/* ------------------------------------------end section home ------------------------------------ */
+/* ------------------------------------------start Section Vehicles --------------------------------*/
+#Vehicles{
+  height: 80vh;
+  
+  background-image: url(../images/car-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.name_cats{
+  font-size: 55px;
+}
+.current_bid{
+  font-size: 14px;
+  color: #43b055;
+}
+.icon_bid{
+  color: #43b055;
+  font-size: 29px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+.cur1{
+  margin-top: 5px;
+}
+.amount{
+  font-size: 20px;
+    line-height: 20px;
+    color: #171d1c;
+    margin-top: -6px;
+}
+.buy_now{
+  margin-right: -100px !important;
+}
+.icon_money{
+  color: red;
+  font-size: 23px;
+  margin-top: 17px;
+  margin-left: -5px;
+}
+.buy_now{
+  font-size: 14px;
+  color: red;
+}
+/* ------------------------------------------end Section Vehicles --------------------------------*/
+/* ------------------------------------------start Section Jewelry --------------------------------*/
+#Jewelry{
+  height: 80vh;
+  
+  background-image: url(../images/jwelry-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* ------------------------------------------end Section Jewelry --------------------------------*/
+/* ------------------------------------------start Section Jewelry --------------------------------*/
+#Watches
+{
+  height: 80vh;
+  
+  background-image: url(../images/coin-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* ------------------------------------------end Section Jewelry --------------------------------*/

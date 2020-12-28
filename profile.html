@@ -1,0 +1,161 @@
+<html>
+
+<head>
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style_lolo.css">
+</head>
+
+<body>
+  <div class="upper_layer w-100">
+    <nav class="navbar navbar-expand-lg navbar-light mine">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#"><i class="fas fa-phone-alt mr-2 text-white"></i> Customer
+          Support</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-shopping-basket fa-2x text-white"></i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="profile.html"><i class="fas fa-user-circle fa-2x ml-3 text-white"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+    <hr>
+    <!-- -------------------------------------------end First navbar--------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" srcset=""></a>
+         -->
+        <a class="navbar-brand" href="#">LoGo</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span>Auction</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="login.html"><span>Login</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="register.html"><span>Register</span></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    
+    <div class="container">
+      <div class="row parent align-items-start">
+        <div class="col-md-3 user mt-4 ">
+          <!--User data-->
+          <a class="link" href="#"><i class="far fa-edit icon-place"></i> Edit</a>
+          <div class="text-center">
+            <img src="images/user.png">
+            <h6 class="mt-2 e-color">john@gmail.com</h6>
+          </div>
+          <div class="mt-4">
+            <div class="d-inline font-weight-bold">Name :</div>
+            <div class="d-inline">Albert Owens</div>
+            <br> <br>
+            <div class="d-inline font-weight-bold mt-3">Date of birth :</div>
+            <div class="d-inline">15-03-1974</div>
+            <br> <br>
+            <div class="d-inline font-weight-bold">Address :</div>
+            <div class="d-inline">8198 Fieldstone Dr.La Crosse, WI 54601</div>
+            <br> <br>
+            <div class="d-inline font-weight-bold">Mobile Number :</div>
+            <div class="d-inline">+1 234-567-8925</div>
+          </div>
+        </div>
+        <!--End of user data-->
+        <div class="ml-4 col-md-8">
+          <div class="row inner">
+            <div class="user col-12 mt-4">
+              <!--user products-->
+              <h3 class="font-weight-bold">My Products</h3>
+              <hr>
+              <div class="row justify-content-between border-bottom ">
+                <div class="col-md-3 border-left border-right p-2 ">
+                  <img class="w-100" src="images/product1.jpg">
+                  <div class="d-inline font-weight-bold ">Posted in :</div>
+                  <div class="d-inline">19/1/2020</div>
+                </div>
+                <div class="col-md-3  border-right p-2">
+                  <img class="w-100" src="images/product2.jpg">
+                  <div class="d-inline font-weight-bold">Posted in :</div>
+                  <div class="d-inline">12/10/2020</div>
+                </div>
+                <div class="col-md-3   border-right p-2">
+                  <img class="w-100" src="images/product3.jpg">
+                  <div class="d-inline font-weight-bold">Posted in :</div>
+                  <div class="d-inline">24/10/2020</div>
+                </div>
+                <div class="col-md-3   border-right p-2">
+                  <img class="w-100" src="images/product5.jpg">
+                  <div class="d-inline font-weight-bold">Posted in :</div>
+                  <div class="d-inline">18/11/2020</div>
+                </div>
+              </div>
+            </div>
+            <!--End of user products-->
+            <div class="user col-12 mt-4 mb-5">
+              <!--form of products-->
+              <h3 class="font-weight-bold">Add a new product</h3>
+              <hr>
+              <form>
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Type Here"></textarea>
+                </div>
+                <div class="form-group mt-4 ">
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1" class="font-weight-bold">Select the category of your
+                    product</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option hidden>Select the category</option>
+                    <option value="Vehicles">Vehicles</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Watches">Watches</option>
+                    <option value="Jewelery">Jewelery</option>
+                    <option value="Real Estate">Real Estate</option>
+                  </select>
+                  <button type="submit" class="btn mt-4 button">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

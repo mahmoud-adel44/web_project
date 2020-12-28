@@ -1,0 +1,66 @@
+body{
+  font-family: sans-serif !important;
+  zoom: 90%;
+}
+body p
+{
+  font-size: smaller;
+}
+#home{
+  height: 100vh;
+  background: linear-gradient(90deg , rgb(0, 26, 255) , rgb(111, 0, 255) ); 
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.breadcrumb
+{
+  background-color: transparent !important;
+  padding:1.75rem ;
+}
+ a
+{
+ color: white;
+ text-decoration: none;
+}
+ a:hover
+{
+  color: black;
+  text-decoration: none;
+}
+
+.l-side
+{
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+ 
+}
+.r-side
+{
+  background: -webkit-linear-gradient(90deg, #5140fe 0%, #7757f7 56%, #9d6ef0 100%);
+  color: white;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+.mybtn
+{
+  color:white;
+  background: -webkit-linear-gradient(90deg, #3da9f5 0%, #683df5 100%);
+  box-shadow: -1.04px 4.891px 20px 0px rgba(69, 49, 183, 0.5);
+  border-radius: 5rem;
+  text-align: center;
+}
+/*
+ //for div or
+.bordr
+{
+  display: inline-block;
+  width: 35%;
+  height:3px;
+  margin: 5px auto;
+  background-color: rgb(231, 226, 226);
+  box-sizing: border-box;
+}*/
+
+
