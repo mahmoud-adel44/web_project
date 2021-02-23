@@ -1,0 +1,181 @@
+body {
+  font-family: sans-serif !important;
+  zoom: 90%;
+}
+
+#product_details_home{
+  height: 100vh;
+  /* background: linear-gradient(90deg , rgb(0, 26, 255) , rgb(111, 0, 255) ); */
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.bg-img {
+  width: 100%;
+}
+
+.imageName {
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  position: relative;
+  bottom: 50px;
+}
+
+.productimg {
+  width: 70%;
+
+}
+
+.table{
+  margin-top: 100px;
+}
+.row{
+  margin-top: 50px;
+}
+
+
+.mazad {
+
+  overflow: auto;
+  margin: 20px;
+  /* display: flex; */
+}
+
+.mazad1 {
+  border-radius: 20px;
+  width: 40%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  /* float: left; */
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+  background-color: #ebf2ff;
+  /* margin: 20px 100px 0px; */
+  margin-top: 100px;
+ 
+}
+
+.mazad2 {
+  border-radius: 20px;
+  width: 40%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dcdbf3;
+  float: right;
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+  margin-right: 20px;
+
+}
+
+.bid-now-area button {
+  border-style: solid;
+  padding: 12px 30px 10px;
+  font-size: 18px;
+  background: -webkit-linear-gradient(90deg, #3da9f5 0%, #683df5);
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: -1.04px 4.891px 20px 0px rgba(64, 49, 183, 0.5);
+  border: none;
+  margin-left: 30px;
+}
+
+.bid-now-area input {
+  border-style: solid;
+  padding: 12px 30px 10px;
+  font-size: 18px;
+  border-radius: 30px;
+
+  font-family: "Roboto", sans-serif;
+  box-shadow: -1.04px 4.891px 20px 0px rgba(64, 49, 183, 0.5);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  margin-left: 100px;
+}
+
+.mazad1 table {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+
+.price {
+  color: rgb(1, 146, 61);
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  /* background-color: #693ff5; */
+  position: fixed;
+}
+
+.buy-now-area {
+  margin-top: 50px;
+}
+
+.buy-now-area .FAV-btn {
+  text-decoration: none;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #dcdbf3;
+  padding: 12px 30px 10px;
+  font-size: 18px;
+  background: #fff;
+  color: black;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 50px;
+
+}
+
+.buy-now-area .custom-btn {
+  text-decoration: none;
+  border-style: solid;
+  padding: 12px 30px 10px;
+  font-size: 18px;
+  background: -webkit-linear-gradient(90deg, #3da9f5 0%, #683df5);
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: -1.04px 4.891px 20px 0px rgba(64, 49, 183, 0.5);
+  margin-left: 100px;
+  border: none;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.helpWays {
+  margin-top: 20px;
+  background-color: #ebf2ff;
+  overflow: auto;
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+
+}
+
+.helpWays li {
+  width: 20%;
+  float: left;
+  border: snow;
+  border-style: solid;
+  border-width: 0.5px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(101, 93, 202, 0.3);
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+
+}

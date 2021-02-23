@@ -26,7 +26,7 @@ body {
 }
 
 .parent {
-    position: absolute;
+    /* position: absolute; */
     top: 30%;
 }
 
@@ -37,10 +37,11 @@ body {
     box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
 }
 
-/* .row {
-    overflow: hidden;
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
     
-} */
+}
 
 .button {
     background-color: #8c7cb3;
